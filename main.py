@@ -1,9 +1,9 @@
 def calculation(weight, height):
-    bmi = weight / (height/100) **2
+    bmi = weight / (height/100) ** 2
     return round(bmi, 1)
 
 
-def respondent(bmi):
+def respondent(bmi):.
     if bmi <= 18.5:
         print('You are underweight.')
     elif (bmi >= 18.5) and (bmi <= 24.9):
